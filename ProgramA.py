@@ -33,9 +33,9 @@ def validate_file(filename):
     
     # Check the first line for LastName, FirstName
     header = lines[0].split(',')
-    first_line = len(header) - 3
-    if first_line < 2:
-        return False, "Invalid header format", 1
+    last_name, first_name = header[0], header[1]
+    if last_name == "" or first_name == "":
+        return False, "Invalid format for last and first name", 1
 
     # Check the second line for course code
     if lines[1].split(",")[0] != "CS 4500":

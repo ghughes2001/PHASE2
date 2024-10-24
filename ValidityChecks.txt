@@ -1,0 +1,8 @@
+blog.csv: Invalid (Line 1: Invalid format for last and first name)
+hughesgrantlog.csv: Invalid (Line 5: Invalid entry format)
+InvalidFirstLineLog.csv: Invalid (Line 1: Invalid format for last and first name)
+jlog.csv: Invalid (Line 6: Note cannot contain commas and must be 80 characters or less)
+wlog.csv: Invalid (Line 4: Invalid activity code)
+XLog.csv: Invalid (Line 8: Number of people must be 50 or less)
+Ylog.csv: Invalid (Line 2: Missing course code 'CS 4500')
+ZLOG.csv: Valid
